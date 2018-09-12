@@ -34,21 +34,15 @@
                                                 <td>
 
                                                 @for($k = 0;$k<count($depart);$k++)
-
                                                     @if($depart[$k]==$dep->name)
                                                             +
                                                         @else
-                                                        @endif
-
-                                                    @endfor
+                                                    @endif
+                                                @endfor
                                                 </td>
-                                          {{--@foreach($depart as $val)
-                                                <td>+</td>
-                                            @endforeach--}}
                                             @endforeach
                                         </tr>
-
-                                    @endfor
+                                        @endfor
                                     </tr>
                                     </tbody>
                                 </table>
